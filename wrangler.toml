@@ -2,7 +2,7 @@ name = "pastebin-worker"
 compatibility_date = "2023-10-30"
 compatibility_flags = ["nodejs_compat"]
 
-account_id = "516d0a360ccdea88dd79e9cf5d2bc3aa"
+account_id = "98c0f9c9eea119e22ac7b6c4602b35b35bf5e"
 main = "src/index.ts"
 workers_dev = false
 
@@ -15,7 +15,7 @@ bucket = "./static/dist"
 
 # 如果不使用自定义域名，将下面的代码注释掉
 [[routes]]
-pattern = "as.al"
+pattern = "pf.ananyo.fun"
 custom_domain = true
 
 [[r2_buckets]]
@@ -24,5 +24,5 @@ bucket_name = 'pastes'
 
 [[d1_databases]]
 binding = "DB"
-database_name = "pastebins"
-database_id = "e7d77803-c383-45c8-9481-c1630aa43bca"
+database_name = "file"
+database_id = "dc844649-e9b3-4c43-a5cb-7a5dc473c95e"
